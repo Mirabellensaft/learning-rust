@@ -1,5 +1,6 @@
-#H1 Return Values and Scope
-#H2 Transfering return values
+Return Values and Scope
+=======================
+## Transfering return values
 
 #H3 1. Define three functions:
   a) gives_ownership will move its return value, a string from a string literal, into the function that calls it.
@@ -21,7 +22,7 @@
   c. Explain why the the value of variable_c can no longer be accessed.
   d. Use a tuple to solve this problem, so that both, the string and its value can be printed.
 
-#H2 References and Borrowing
+## References and Borrowing
 Doing this with tuples is a hassle and the problem can be solved more elegantly.
 
 #H3 1. Make the following modifications:
@@ -32,15 +33,17 @@ Doing this with tuples is a hassle and the problem can be solved more elegantly.
   d. Define the function change(). The function borrows a string, modifies is with push_str() and returns the reference to the string.
   e. Explain the output.
 
-#H2 Mutable References
+## Mutable References
   a. Make variable_c into a mutable variable.
   b. Change the parameter and the output of the function to the mutable refernces &mut String. Move the mutable reference to variable_c to the function.
   a. Print variable_c.
 
-  d. Define two different variables, both referencing mutably to variable_c.
-  e. Print both variables.
-  f. Explain a data races.
-  g. Make one of the variables reference immutably to variable_c.
-  h. Explain the outcome.
+## Play with References
 
-  
+  a. Define two different variables, both referencing mutably to variable_c.
+  b. Print both variables.
+  c. Explain a data races.
+  d. Make one of the variables reference immutably to variable_c.
+  e. Explain the outcome.
+
+## Dangling References

@@ -2,10 +2,10 @@ Return Values and Scope
 =======================
 ## Transfering return values
 
-*1. Define three functions:*
-  a) gives_ownership will move its return value, a string from a string literal, into the function that calls it.
-  b) takes_and_gives_back takes a String and returns it.
-  c) fn main()
+*1. Define three functions:*  
+  a) gives_ownership will move its return value, a string from a string literal, into the function that calls it.  
+  b) takes_and_gives_back takes a String and returns it.  
+  c) fn main()  
 
 *2. Define the following three variables in fn main():*
   a) gives_ownership moves its return value into a variable.
@@ -22,13 +22,13 @@ Return Values and Scope
   c. Explain why the the value of variable_c can no longer be accessed.
   d. Use a tuple to solve this problem, so that both, the string and its value can be printed.
 
-## References and Borrowing
-Doing this with tuples is a hassle and the problem can be solved more elegantly.
+## References and Borrowing  
+Doing this with tuples is a hassle and the problem can be solved more elegantly.  
 
-*1. Make the following modifications:*
-  a. Revert your program to the version without a tuple.
-  b. Instead of moving variable_c into calculate_length, use &variable_c. Change the parameter of the function to &String.
-  c. Explain the difference between variable_c and &variable_c.
+*1. Make the following modifications:*  
+  a. Revert your program to the version without a tuple.  
+  b. Instead of moving variable_c into calculate_length, use &variable_c. Change the parameter of the function to &String.  
+  c. Explain the difference between variable_c and &variable_c.  
 
   d. Define the function change(). The function borrows a string, modifies is with push_str() and returns the reference to the string.
   e. Explain the output.

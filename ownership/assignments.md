@@ -26,7 +26,7 @@ Ownership
 ## References and Borrowing  
 Doing this with tuples is a hassle and the problem can be solved more elegantly.  
 
-**1. Make the following modifications:**  
+**1. Instead of movin a variable, make a reference to it:**  
   a. Revert your program to the version without a tuple.  
   b. Instead of moving variable_c into calculate_length, use &variable_c. Change the parameter of the function to &String.  
   c. Explain the difference between variable_c and &variable_c.  
@@ -34,12 +34,12 @@ Doing this with tuples is a hassle and the problem can be solved more elegantly.
   d. Define the function change(). The function borrows a string, modifies is with push_str() and returns the reference to the string.  
   e. Explain the output.  
 
-## Mutable References
+** 2. To change the value of a reference, it has to be mutable.**
   a. Make variable_c into a mutable variable.  
   b. Change the parameter and the output of the function to the mutable refernces &mut String. Move the mutable reference to variable_c to the function.  
-  a. Print variable_c.  
+  c. Print variable_c.  
 
-## Play with References
+** 3. Play with mutable and immutable references.**
 
   a. Define two different variables, both referencing mutably to variable_c.  
   b. Print both variables.  
@@ -47,4 +47,4 @@ Doing this with tuples is a hassle and the problem can be solved more elegantly.
   d. Make one of the variables reference immutably to variable_c.  
   e. Explain the outcome.  
 
-## Dangling References
+** 4. Dangling ReferencesS **

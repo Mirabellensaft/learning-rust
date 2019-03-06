@@ -34,12 +34,12 @@ Doing this with tuples is a hassle and the problem can be solved more elegantly.
   d. Define the function change(). The function borrows a string, modifies is with push_str() and returns the reference to the string.  
   e. Explain the output.  
 
-** 2. To change the value of a reference, it has to be mutable.**
+**2. To change the value of a reference, it has to be mutable.**  
   a. Make variable_c into a mutable variable.  
   b. Change the parameter and the output of the function to the mutable refernces &mut String. Move the mutable reference to variable_c to the function.  
   c. Print variable_c.  
 
-** 3. Play with mutable and immutable references.**
+**3. Play with mutable and immutable references.**  
 
   a. Define two different variables, both referencing mutably to variable_c.  
   b. Print both variables.  
@@ -47,4 +47,4 @@ Doing this with tuples is a hassle and the problem can be solved more elegantly.
   d. Make one of the variables reference immutably to variable_c.  
   e. Explain the outcome.  
 
-** 4. Dangling ReferencesS **
+**4. Dangling ReferencesS **  

@@ -3,14 +3,14 @@ Return Values and Scope
 ## Transfering return values
 
 *1. Define three functions:*  
-  a) gives_ownership will move its return value, a string from a string literal, into the function that calls it.  
-  b) takes_and_gives_back takes a String and returns it.  
-  c) fn main()  
+    a) gives_ownership will move its return value, a string from a string literal, into the function that calls it.  
+    b) takes_and_gives_back takes a String and returns it.  
+    c) fn main()  
 
 *2. Define the following three variables in fn main():*
-  a) gives_ownership moves its return value into a variable.
-  b) A second variable gets a string from a string literal.
-  c) The variable from b) is moved into takes_and_gives_back, which moves its return value into the third variable.
+    a) gives_ownership moves its return value into a variable.
+    b) A second variable gets a string from a string literal.
+    c) The variable from b) is moved into takes_and_gives_back, which moves its return value into the third variable.
 
 *3. Compile the program.*
 

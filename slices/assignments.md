@@ -16,4 +16,4 @@ Slices
     c. First_word takes and returns a string slice.
     d. Move a string literal into first_word.
 
-**3. How does a slice of an array look like?:.**
+**3. Make a slice of an array:.**

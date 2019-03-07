@@ -1,2 +1,2 @@
 [workspace]
-members = ["ownership", "slices"]
+members = ["ownership", "slices", "structs"]
